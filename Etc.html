@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accuel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href="../01_Accueil/Accueil.html"><img src="../../Images/Logo.png" alt="Logo" class="Logo"></a>
+        <div class="lien_menu">
+            <a href="../01_Accueil/Accueil.html" class="boutton_menu">Accueil</a>
+            <a href="../02_Rapport_Economique/Rapport_Economique.html" class="boutton_menu">Rapport Économique</a>
+            <a href="../03_A_Propos/A_Propos.html" class="boutton_menu">À propos</a>
+            <a href="../04_Telechargeable/Telechargeable.html" class="boutton_menu">Téléchargeable</a>
+            <a href="../05_Etc/Etc.html" class="boutton_menu site_actuel">Etc</a>
+        </div>
+    </nav>
+    <img src="../../Images/FireWatch.jpg">
+    <div style="height: 1000px;"></div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY === 0) {
+                nav.classList.remove('avec-bord');
+            } else {
+                nav.classList.add('avec-bord');
+            }
+        });
+    </script>
+</body>
+</html>
