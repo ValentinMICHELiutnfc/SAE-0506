@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vie de l'entreprise</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ajoute le menu qui est sur la page index.html sans php-->
+    <nav>
+        <a href="index.html"><img src="Logo.png" alt="Logo" class="Logo"></a>
+        <div class="lien_menu">
+            <a href="index.html" class="boutton_menu">Accueil</a>
+            <a href="Rapport_Economique.html" class="boutton_menu">Rapport Économique</a>
+            <a href="Activites.html" class="boutton_menu">À propos</a>
+            <a href="Telechargeable.html" class="boutton_menu">Téléchargeable</a>
+            <a href="Etc.html" class="boutton_menu site_actuel">Etc</a>
+        </div>
+       </nav>
+       <img src="FireWatch.jpg">
+       <div style="height: 1000px;"></div>
+         <script>
+          window.addEventListener('scroll', function() {
+                const nav = document.querySelector('nav');
+                if (window.scrollY === 0) {
+                 nav.classList.remove('avec-bord');
+                } else {
+                 nav.classList.add('avec-bord');
+                }
+          });
+         </script>
+
+</body>
+
+</html>
