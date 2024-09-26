@@ -54,7 +54,9 @@ body{
 .zoneTitre1{
     display: flex;
     justify-content: space-around;
-    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 50px;
 }
 
 
