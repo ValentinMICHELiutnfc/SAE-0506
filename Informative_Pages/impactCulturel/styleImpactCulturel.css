@@ -28,6 +28,37 @@ body{
     height: width;
 }
 
+.info1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 70%;
+}
+
+.info1-image{
+    margin-right: 50px;
+}
+
+.info2{
+    display: flex;
+    margin-top: 50px;
+    margin-left: calc(30% - 100px);
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+.info2-image{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
 footer{
     display: flex;
     position: absolute;
