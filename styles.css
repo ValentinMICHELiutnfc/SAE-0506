@@ -56,3 +56,11 @@ nav.avec-bord{
     text-decoration-thickness: 3px;
     text-underline-offset: 5px;
 }
+
+
+body {
+    background-image: url('FireWatch.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
