@@ -51,6 +51,11 @@ body{
     margin-left: 50px;
 }
 
+.zoneTitre1{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
 
 
 
