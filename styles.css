@@ -70,3 +70,12 @@ footer{
     align-items: center;
     margin: auto; /* Center horizontally */
 }
+
+
+body {
+    background-image: url('FireWatch.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
