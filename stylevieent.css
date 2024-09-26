@@ -60,20 +60,45 @@ nav.avec-bord{
 body {
     background-image: url('FireWatch.jpg'); 
     background-size: cover; 
-    
 }
+
 .container {
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
     justify-content: center;
     align-items: center;
-    width: 40vh; /* Making the container square */
-    height: 40vh; /* Making the container square */
-    background-color: white;
     position: absolute;
     top: 50%;
-    right: 2%; /* Positioning the container closer to the right edge */
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Set background to white */
+    height: 50%; /* Increase height */
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flexbox .image-container {
+    width: 50%;
+}
+
+.flexbox .image-container img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.flexbox .text-container {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
