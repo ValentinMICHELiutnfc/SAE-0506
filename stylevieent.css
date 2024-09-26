@@ -57,38 +57,25 @@ nav.avec-bord{
     text-underline-offset: 5px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
-    display: inline-block;
-    background-color: white; /* White background */
-    color: black; /* Black text color */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add some shadow for depth */
-    text-align: center;
-    margin: 0; /* Remove default margin */
-}
-
-.centered-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    background-color: rgba(0, 0, 0, 0.1); /* Light semi-transparent background */
-}
-
-.centered-container h1, 
-.centered-container h2, 
-.centered-container h3, 
-.centered-container h4, 
-.centered-container h5, 
-.centered-container h6 {
-    position: relative;
-}
-
 body {
     background-image: url('FireWatch.jpg'); 
     background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 40%; /* Adjusted to move the container higher */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
