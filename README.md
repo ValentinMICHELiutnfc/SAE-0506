@@ -2,7 +2,7 @@
 
 ## ANKAMA
 
-[Nom du projet](https://login.github.io/projet/)
+[Accès site web](https://valentinmicheliutnfc.github.io/SAE-0506/)
 
 ## Membres du groupe :
 
