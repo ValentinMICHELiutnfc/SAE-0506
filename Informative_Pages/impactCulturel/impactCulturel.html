@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Impact Culturel</title>
+    <link rel="stylesheet" href="stylestelecharge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <nav>
+        <div class="lien_menu">
+            <a href="index.html" class="boutton_menu">Accueil</a>
+            <a href="Rapport_Economique.html" class="boutton_menu">Rapport Économique</a>
+            <a href="index.html"><img src="Logo.png" alt="Logo" class="Logo boutton_menu"></a>
+            <a href="A_Propos.html" class="boutton_menu">À propos</a>
+            <a href="Activites.html" class="boutton_menu">À propos</a>
+            <a href="Telechargeable.html" class="boutton_menu site_actuel">Téléchargeable</a>
+            <a href="vie_entreprise.html" class="boutton_menu">Vie de l'entreprise</a>
+        </div>
+    </nav>
+</head>
+
+<body>
+    <div class="trou"></div>
+    <div>
+    <div class="navImageBar">
+        <img src="Dofus_Logo.jpg" class="navImage">
+        <img src="Wakfu_Logo.jpg" class="navImage">
+        <img src="TactileWars_Logo.png" class="navImage">
+        <img src="Krosmaga_Logo.jpg" class="navImage">
+        <img src="Waven_Logo.jpg" class="navImage">
+    </div>
+
+    <img src="FireWatch.jpg">
+    <div style="height: 1000px;"></div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY === 0) {
+                nav.classList.remove('avec-bord');
+            } else {
+                nav.classList.add('avec-bord');
+            }
+        });
+    </script>
+</body>
+
+<footer>
+    <h1 class="auteur">Mathis LABBE</h1>
+</footer>
+
+</html>
