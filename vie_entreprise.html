@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <div class="container">
-            <h1>La vie de l'entreprise</h1>
+    <div class="container d-flex align-items-center">
+        <h1>La vie de l'entreprise</h1>
     </div>
     <!-- ajoute le menu qui est sur la page index.html sans php-->
     <nav>
@@ -25,19 +25,19 @@
             <a href="Telechargeable.html" class="boutton_menu">Téléchargeable</a>
             <a href="vie_entreprise.html" class="boutton_menu site_actuel">Vie de l'entreprise</a>
         </div>
-       </nav>
-       <div style="height: 1000px;"></div>
-         <script>
-          window.addEventListener('scroll', function() {
-                const nav = document.querySelector('nav');
-                if (window.scrollY === 0) {
-                 nav.classList.remove('avec-bord');
-                } else {
-                 nav.classList.add('avec-bord');
-                }
-          });
-         </script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </nav>
+    <div style="height: 1000px;"></div>
+    <script>
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY === 0) {
+                nav.classList.remove('avec-bord');
+            } else {
+                nav.classList.add('avec-bord');
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>

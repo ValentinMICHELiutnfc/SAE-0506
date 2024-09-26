@@ -62,20 +62,18 @@ body {
     background-size: cover; 
     
 }
-
 .container {
     display: flex;
+    flex-direction: column; /* Arrange items in a column */
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50vh;
+    width: 40vh; /* Making the container square */
+    height: 40vh; /* Making the container square */
     background-color: white;
-    margin: auto;
     position: absolute;
-    top: 40%; /* Adjusted to move the container higher */
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 2%; /* Positioning the container closer to the right edge */
+    transform: translateY(-50%);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
