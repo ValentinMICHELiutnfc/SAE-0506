@@ -9,6 +9,12 @@ body{
     margin: 0;
     padding: 0;
     font-family: Kanit;
+    background-color: beige;
+
+
+
+    /*background-image: url('FireWatch.jpg'); 
+    background-size: cover;*/
 }
 
 .Logo{
@@ -55,4 +61,42 @@ nav.avec-bord{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 5px;
+}
+
+
+.window_container{
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    gap : 20px;
+
+}
+
+.ligne_contenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap : 2%;
+    width: 100%;
+}
+
+
+.texte{
+    width : 55%;
+    gap: 10px;
+    justify-content: center;
+    background-color: azure;
+    border-radius: 3%;
+}
+
+.image{
+    width:30%;
+    background-color: azure;
+    border-radius: 3%;
+}
+
+.piece{
+    width: 100%;
 }
