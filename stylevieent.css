@@ -58,7 +58,7 @@ nav.avec-bord{
 }
 
 body {
-    background-image: url('Img/FireWatch.jpg'); 
+    background-image: url('/Img/FireWatch.jpg'); 
     background-size: cover; 
 }
 
