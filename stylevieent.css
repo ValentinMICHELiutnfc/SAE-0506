@@ -43,3 +43,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white; /* Set text color to white */
+    background-color: #333; /* Set background color to dark gray */
+    padding: 10px 0; /* Add padding for better spacing */
+}
+
+footer p {
+    margin: 0;
+}
