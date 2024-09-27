@@ -7,7 +7,7 @@
 
 .Logo{
     position: flex;
-    top: 2px;
+    padding-top: 5px;
     width: 45px;
     height: 45px;
 }
