@@ -10,7 +10,8 @@ body{
     padding: 0;
     font-family: Kanit;
     /*background-color: #ffcd88;*/
-    background-color: #454545;
+    background-image: url('FireWatch.jpg'); 
+    background-size: cover; 
 }
 
 .Logo{
