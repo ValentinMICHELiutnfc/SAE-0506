@@ -8,7 +8,6 @@
 .Logo{
     position: flex;
     padding-top: 5px;
-    width: 45px;
     height: 45px;
 }
 
@@ -19,6 +18,7 @@
     min-height: 50px;
     background-color: var(--navbar-color);
     font-weight: bold;
+    z-index: 1;
 }
 
 nav.avec-bord{

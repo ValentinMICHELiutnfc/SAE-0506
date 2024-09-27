@@ -40,6 +40,7 @@ body {
 
 #CarouselAnkama{
     padding-top: 50px;
+    z-index: -1;
 }
 
 #Titre_Page{
