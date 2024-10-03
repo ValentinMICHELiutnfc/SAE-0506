@@ -19,6 +19,8 @@
     background-color: var(--navbar-color);
     font-weight: bold;
     z-index: 1;
+    font-family: Kanit;
+    box-sizing: none;
 }
 
 nav.avec-bord{
