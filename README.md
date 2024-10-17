@@ -31,7 +31,7 @@ Impact culturel :
 <br>
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/35cab4c6-2ffe-4786-89ae-dc13d6caa477">
 
-
+Vie de l'entreprise :
 
 
 
