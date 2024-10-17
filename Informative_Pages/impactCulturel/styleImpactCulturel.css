@@ -3,23 +3,37 @@
     --navbar-color: rgb(30, 30, 30);
     --navbar-text-color: white;
     --navbar-text-actual-color: #ec5727;
+    --background-color: #f5e9ae;
+    --content-color: #da9b55;
 }
 
 body{
     margin: 0px;
     padding: 0;
     font-family: Kanit;
-    background-color: white;
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+.espace{
+    height: 100px;
+    background-color: var(--background-color);
 }
 
 .content{
     margin-left: 100px;
     margin-right: 100px;
-    background-color: #b3b3b3;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding-top: 30px;
+    background-color: var(--content-color);
 }
 
 .navImageBar{
     display: flex;
+    background-color: var(--background-color);
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .navImage{
@@ -30,25 +44,32 @@ body{
 
 .info1{
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-right: 100px;
     margin-left: 100px;
-    width: 70%;
+    align-items: center;
 }
 
 .info1-image{
     margin-right: 50px;
+    width: 40%;
+    height: 40%;
+    border-radius: 50px;
 }
 
 .info2{
     display: flex;
-    margin-top: 50px;
-    margin-left: calc(30% - 100px);
-    width: 70%;
-    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
 }
 
 .info2-image{
     margin-left: 50px;
+    width: 40%;
+    height: 40%;
+    border-radius: 50px;
 }
 
 .zoneTitre1{
