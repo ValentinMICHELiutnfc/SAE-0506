@@ -52,6 +52,7 @@ body {
     top:0;
     position:fixed;
     z-index: -4;
+    width: 100%;
 }
 
 #Titre_Page{
@@ -62,8 +63,8 @@ body {
     text-align: center; 
     justify-content: center;
     align-items: center;
-    color: white; 
-    background-color: black;
+    color: black; 
+    background-color: #f5e9ae;
     font-size: calc(1.5em + 1vw);
     padding: 0.5em 1.25em;
     width: 100%;
@@ -86,7 +87,7 @@ body {
     z-index: -2;
     text-align: justify; 
     color: black; 
-    background-color: white; 
+    background-color: #da9b55; 
     font-size: 20px;
     position: absolute;
     top: 100%;
