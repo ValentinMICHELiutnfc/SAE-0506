@@ -8,21 +8,33 @@
     <link rel="stylesheet" href="styleBarNav.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Provisoire -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200&icon_names=keyboard_double_arrow_down" />
+    <script>
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY === 0) {
+                nav.classList.remove('avec-bord');
+            } else {
+                nav.classList.add('avec-bord');
+            }
+        });
+    </script>
     <nav class="navBar">
         <div class="lien_menu">
-            <a href="index.html" class="boutton_menu site_actuel">Accueil</a>
-            <a href="Rapport_Economique.html" class="boutton_menu">Rapport Économique</a>
-            <a href="index.html"><img src="../SAE-0506/Img/LogoAnkama.png" alt="Logo" class="Logo boutton_menu"></a>
-            <a href="Activites.html" class="boutton_menu">Activités/histoire</a>
-            <a href="Informative_Pages/impactCulturel/impactCulturel.html" class="boutton_menu">Impact Culturel</a>
-            <a href="vie_entreprise.html" class="boutton_menu">Vie de l'entreprise</a>
+            <a href="index.html" class="boutton_menu site_actuel poppins-regular">Accueil</a>
+            <a href="Rapport_Economique.html" class="boutton_menu poppins-regular">Rapport Économique</a>
+            <a href="index.html"><img src="../SAE-0506/Img/LogoAnkama.png" alt="Logo" class="Logo boutton_menu poppins-regular"></a>
+            <a href="Activites.html" class="boutton_menu poppins-regular">Activités/histoire</a>
+            <a href="Informative_Pages/impactCulturel/impactCulturel.html" class="boutton_menu poppins-regular">Impact Culturel</a>
+            <a href="vie_entreprise.html" class="boutton_menu poppins-regular">Vie de l'entreprise</a>
         </div>
     </nav>
 </head>
 
-<body>
+<body>  
+    <div class="EffetNav"></div>
     <div id="CarouselAnkama">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         
@@ -46,34 +58,84 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
             </button>
+
         </div>
     </div>
 
     <div>
         <div id="Titre_Page">
-            <h> Bienvenu sur la page d'acceuil d'infokama</h1>
+            <span class="material-symbols-outlined">keyboard_double_arrow_down</span><h class="poppins-bold">  Bienvenu sur la page d'acceuil d'infokama  </h><span class="material-symbols-outlined">keyboard_double_arrow_down</span>
         </div>
-        <br><br>
-        <div id="Descriptif">
-            <h> Bienvenue sur notre site, un espace entièrement dédié à l'exploration des dynamiques économiques, de la vie en entreprise, et de la fascinante culture d'Ankama. Ici, nous plongeons dans les enjeux contemporains de l'économie globale tout en mettant en lumière les spécificités du monde professionnel, des stratégies d'entreprise, et des processus créatifs propres à Ankama. Découvrez avec nous comment cette entreprise emblématique réussit à allier innovation, créativité et gestion, tout en influençant profondément les secteurs du jeu vidéo, de l’animation et de l’édition.</h>
+        <div id="ArrierePlan"></div>
+        <div id="Descriptif" class="poppins-regular">
+            <div id="Texte_Intro">
+                <h> 
+                    Bienvenue sur notre site, un espace entièrement dédié à l'exploration des dynamiques économiques, 
+                    de la vie en entreprise, et de la fascinante culture d'Ankama. 
+                    Ici, nous plongeons dans les enjeux contemporains de l'économie globale tout en mettant en lumière les spécificités du monde professionnel, 
+                    des stratégies d'entreprise, et des processus créatifs propres à Ankama. 
+                    Découvrez avec nous comment cette entreprise emblématique réussit à allier innovation, créativité et gestion, 
+                    tout en influençant profondément les secteurs du jeu vidéo, de l’animation et de l’édition.
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In sit amet sem id lectus viverra elementum vel a enim. 
+                    Nunc nibh justo, pharetra nec nunc ac, mollis pharetra tellus. 
+                    Vestibulum porta tortor lectus, quis scelerisque velit congue in. 
+                    Nunc eu vestibulum quam, quis rutrum nisi. 
+                    Maecenas sed leo vitae justo ultricies porttitor. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                    Phasellus hendrerit sem quis lacus auctor maximus. 
+                    Nam molestie vestibulum nisl, sed laoreet lacus luctus sed.
+                    Proin sollicitudin mi id erat tincidunt, a eleifend felis cursus. 
+                    Sed tempus magna nisi, et sagittis leo vulputate nec. 
+                    In gravida, lorem sed aliquet porta, nibh est fermentum massa, ac tristique diam diam porta nunc. 
+                    Cras at mattis mi, sit amet efficitur odio. Aenean tempor ex velit, eget commodo velit mattis nec. 
+                    Sed fringilla magna vel lacus congue fringilla. Aenean mattis urna ex, id convallis turpis feugiat non. 
+                    Vivamus mollis orci dui, quis ullamcorper diam aliquet congue.
+                    Praesent vehicula velit faucibus quam rutrum, sed eleifend nisl dictum. 
+                    Maecenas at tellus sed ex imperdiet cursus. 
+                    Aliquam eleifend turpis eu arcu venenatis, non ultrices lectus sagittis. 
+                    Donec erat nibh, vehicula ac consectetur vel, fringilla eu enim. 
+                    Donec commodo eros diam, et malesuada turpis sodales nec. 
+                    Vestibulum quis volutpat nisl, a mattis velit. Sed eget placerat purus. 
+                    Etiam a nulla mi. Donec scelerisque orci at urna aliquam tristique. 
+                    Phasellus viverra ullamcorper augue non dignissim. 
+                    Quisque sodales risus tellus, in pellentesque mauris interdum id. 
+                    Aenean ut nibh nec dui pellentesque maximus id nec nisl.
+                    Integer urna neque, lobortis in auctor at, pharetra ac tortor. 
+                    Aenean lacinia justo nisl, sed finibus ex consequat eu. 
+                    Praesent venenatis imperdiet leo, quis commodo lacus finibus sed. 
+                    Pellentesque leo purus, imperdiet in nibh convallis, facilisis gravida lorem. 
+                    Curabitur laoreet dui sit amet velit rhoncus mattis in a ligula. 
+                    Donec feugiat pretium sollicitudin. 
+                    Ut scelerisque tortor ante, non venenatis est tempor non. 
+                    Etiam eu justo gravida sem hendrerit fringilla. 
+                    Praesent eleifend nibh vel tincidunt interdum. 
+                    Integer condimentum, neque sit amet rutrum rhoncus, ante nunc aliquet elit, vitae laoreet ex augue nec erat.
+                    Etiam bibendum vehicula felis ultrices tempus. 
+                    Mauris sit amet tincidunt purus, nec pulvinar est. 
+                    Suspendisse magna tortor, cursus quis mollis sit amet, maximus ut est. 
+                    Ut luctus laoreet purus non euismod. 
+                    Quisque ornare ac dolor quis sollicitudin. 
+                    Phasellus fringilla ipsum quis leo elementum egestas. 
+                    Sed efficitur faucibus nibh. 
+                    Morbi ut elit eget enim luctus rhoncus quis vitae sapien. 
+                    Nullam libero ipsum, faucibus vel mi vitae, condimentum iaculis tellus. 
+                    Curabitur eleifend consequat turpis, eget euismod leo pretium quis. 
+                    Vivamus interdum nunc ac rhoncus auctor. 
+                    Phasellus feugiat turpis non laoreet gravida. 
+                    Donec venenatis orci metus, viverra dignissim turpis sodales sit amet. 
+                    Vivamus volutpat dui libero, sit amet dapibus enim posuere vel. 
+                    Aenean nibh turpis, mattis non neque eu, malesuada sodales massa.
+                </h>
+            </div>
+            <footer class="text-center mt-4">
+                <p>&copy; 2024 Ankama. Tous droits réservés. Lïam ABID--FONTAINE.</p>
+            </footer>
         </div>
-        <br><br><br>
+        
     </div>
    
-    <footer class="text-center mt-4">
-        <p>&copy; 2024 Ankama. Tous droits réservés. Lïam ABID--FONTAINE.</p>
-    </footer>
-
-    <script>
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('nav');
-            if (window.scrollY === 0) {
-                nav.classList.remove('avec-bord');
-            } else {
-                nav.classList.add('avec-bord');
-            }
-        });
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> <!-- Boostrap Script -->
 </body>
 </html>
