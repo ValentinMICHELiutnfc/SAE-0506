@@ -34,7 +34,8 @@ Impact culturel :
 Vie de l'entreprise :
 
 # Validation CO2
-
+<br>
+<img width="300" alt="image" src="ECO_Valentin.png">
 
 
 
