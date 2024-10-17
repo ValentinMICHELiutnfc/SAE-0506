@@ -1,3 +1,8 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
 :root{
     /* Variable NavBar */
     --navbar-color: rgb(30, 30, 30);
@@ -52,21 +57,21 @@ body {
 }
 
 #Titre_Page{ /* À ajuster en fonction de la largeur de la page */
+    font-weight: 700;
+    font-style:normal;
+
     z-index: -2;
     text-align: center; 
     justify-content: center;
     align-items: center;
     color: white; 
     background-color: black;
-    font-size: 45px; 
-    padding: 0 1.25em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: calc(1.5em + 1vw);
+    padding: 0.5em 1.25em;
     width: 100%;
     margin: 0 auto;
     position: absolute;
     top: 90%;
-
 }
 
 #ArrierePlan{
@@ -78,6 +83,9 @@ body {
 }
 
 #Descriptif{
+    font-weight: 400;
+    font-style:normal;
+
     z-index: -2;
     text-align: justify; 
     color: black; 
@@ -111,14 +119,3 @@ footer p {
     margin:0;
 }
 
-.poppins-bold {
-font-family: "Poppins", sans-serif;
-font-weight: 700;
-font-style: normal;
-}
-
-.poppins-regular {
-font-family: "Poppins", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
