@@ -24,16 +24,18 @@ Rapport économique :
 
 Activités/historique :
 <br>
-<img width="300" alt=image" src
+<img width="300" alt="image" src="W3C_Valentin.png">
+
 
 Impact culturel :
 <br>
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/35cab4c6-2ffe-4786-89ae-dc13d6caa477">
 
+Vie de l'entreprise :
 
-
-
-
+# Validation CO2
+<br>
+<img width="300" alt="image" src="ECO_Valentin.png">
 
 
 
