@@ -1,26 +1,53 @@
 body {
-    background-image: url('../SAE-0506/Img/FireWatch.jpg');
+    background-image: url('../SAE-0506/fondvieent.jpg');
     background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* pour que les éléments soient bien répartis */
 }
 
+.container {
+    display: flex;
+    gap: 10px; /* Espacement entre les boîtes */
+    margin: 20px;
+}
 
+.box {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparence pour voir le fond */
+}
 
+.small-rect {
+    width: 300px; /* Augmenter la largeur */
+    height: 300px; /* Augmenter la hauteur */
+}
 
+.large-rect {
+    width: 800px; /* Augmenter la largeur */
+    height: 300px; /* Augmenter la hauteur */
+    grid-column: span 2;
+    
+}
 
-
-
-
+/* Footer */
 footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #333;
+    color: white;
     text-align: center;
-    font-size: 14px;
-    color: white; /* Set text color to white */
-    background-color: #333; /* Set background color to dark gray */
-    padding: 10px 0; /* Add padding for better spacing */
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
 }
 
 footer p {
     margin: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
