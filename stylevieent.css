@@ -1,35 +1,35 @@
 body {
-    background-image: url('../SAE-0506/fondvieent.jpg');
+    background-image: url('fondvieent.jpg');
     background-size: cover;
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* pour que les éléments soient bien répartis */
+    justify-content: space-between;
     font-size: 20px;
 }
 
 .container {
     display: flex;
-    gap: 10px; /* Espacement entre les boîtes */
+    gap: 10px;
     margin: 20px;
 }
 
 .box {
     border: 2px solid #f5e9ae;
     border-radius: 10px;
-    background-color: #da9b55; /* Transparence pour voir le fond */
+    background-color: #da9b55;
 }
 
 .small-rect {
-    width: 300px; /* Augmenter la largeur */
-    height: 300px; /* Augmenter la hauteur */
+    width: 300px;
+    height: 300px;
 }
 
 .large-rect {
-    width: 65%; /* Augmenter la largeur */
-    height: 300px; /* Augmenter la hauteur */
-    padding: 20px; /* Ajouter du padding pour éloigner le texte des bords */
+    width: 65%;
+    height: 300px;
+    padding: 20px;
     grid-column: span 2;
 }
 
@@ -40,12 +40,8 @@ body {
     overflow: hidden;
     padding: 20px;
     box-sizing: border-box;
-    
-    }
+}
 
-
-
-/* Footer */
 footer {
     background-color: #333;
     color: white;
@@ -54,6 +50,7 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
+    left: 0;
 }
 
 footer p {
@@ -69,12 +66,12 @@ footer p {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
-    }
-    
+    font-size: 19px;
+}
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 19px;
 }
