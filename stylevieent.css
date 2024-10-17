@@ -26,11 +26,23 @@ body {
 }
 
 .large-rect {
-    width: 800px; /* Augmenter la largeur */
+    width: 65%; /* Augmenter la largeur */
     height: 300px; /* Augmenter la hauteur */
+    padding: 20px; /* Ajouter du padding pour éloigner le texte des bords */
     grid-column: span 2;
-    
 }
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    }
+
+
 
 /* Footer */
 footer {
@@ -50,4 +62,16 @@ footer p {
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+    
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
