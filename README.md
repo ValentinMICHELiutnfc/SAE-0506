@@ -25,4 +25,4 @@ Rapport économique :
 Activités/historique :
 
 Impact culturel :
-<img width="576" alt="image" src="https://github.com/user-attachments/assets/35cab4c6-2ffe-4786-89ae-dc13d6caa477">
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/35cab4c6-2ffe-4786-89ae-dc13d6caa477">
