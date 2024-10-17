@@ -23,6 +23,8 @@ Accueil :
 Rapport économique :
 
 Activités/historique :
+<br>
+<img width="300" alt=image" src
 
 Impact culturel :
 <br>
