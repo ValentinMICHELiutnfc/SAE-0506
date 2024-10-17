@@ -15,3 +15,5 @@ Etudiant 5 : [Mathis Labbe](mailto:mathis.labbe@edu.univ-fcomte.fr?subject=SAE_1
 # Présentation du projet
 
 Le site se compose de 5 pages, incluant la page d'accueil, nous traitons dans une page de la vie de l'entreprise, de ses locaux. Une page traite de l'économie et une des activités et de l'histoire de l'entreprise. Enfin la dernière page traite de l'impact culturel de l'entreprise.
+
+# Validation W3C
