@@ -1,49 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vie de l'entreprise</title>
-    <link rel="icon" href="../SAE-0506/Img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="Img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylevieent.css">
     <link rel="stylesheet" href="styleBarNav.css">
-    <link rel="stylesheet" href="stylefooter.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <nav class="navBar">
-        <div class="lien_menu">
-            <a href="index.html" class="boutton_menu">Accueil</a>
-            <a href="Rapport_Economique.html" class="boutton_menu">Rapport Économique</a>
-            <a href="index.html"><img src="Pictures/impactCulturel/logo.png" alt="Logo" class="Logo boutton_menu"></a>
-            <a href="Activites.html" class="boutton_menu">Activités/histoire</a>
-            <a href="Informative_Pages/impactCulturel/impactCulturel.html" class="boutton_menu">Impact Culturel</a>
-            <a href="vie_entreprise.html" class="boutton_menu site_actuel">Vie de l'entreprise</a>
-        </div>
-    </nav>
 </head>
-
 <body>
-    <div class="container d-flex align-items-center">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="entreprise.jpg" alt="Entreprise" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-                <h1>La vie de l'entreprise</h1>
-                <p>L’esprit d’Ankama repose sur l’innovation, la créativité et un lien fort avec sa communauté. L’entreprise s’efforce de créer un univers cohérent et immersif, offrant des expériences diversifiées et engageantes. Avec un modèle basé sur l’indépendance et l’autoproduction, Ankama continue de repousser les limites, en explorant de nouveaux médias et en s’adaptant aux tendances du marché.
-
-                    Aujourd’hui, Ankama est bien plus qu’un simple studio de jeux vidéo : c’est un créateur d’univers, à la croisée des mondes du divertissement, de la culture et de l’art, qui continue d’évoluer tout en restant fidèle à ses racines et à sa communauté de passionnés</p>
-            </div>
-        </div>
-    </div>
-    <!-- ajoute le menu qui est sur la page index.html sans php-->
-    <div style="height: 1000px;"></div>
-    
-    <footer class="text-center mt-4">
-        <p>&copy; 2024 Ankama Tous droits réservés. Benjamin Jond.</p>
-    </footer>
-
     <script>
         window.addEventListener('scroll', function() {
             const nav = document.querySelector('nav');
@@ -54,6 +21,58 @@
             }
         });
     </script>
+    <nav class="navBar">
+        <div class="lien_menu">
+            <a href="index.html" class="boutton_menu">Accueil</a>
+            <a href="Rapport_Economique.html" class="boutton_menu">Rapport Économique</a>
+            <a href="index.html"><img src="Img/LogoAnkama.png" alt="Logo" class="Logo boutton_menu"></a>
+            <a href="Activites.html" class="boutton_menu">Activités/histoire</a>
+            <a href="Informative_Pages/impactCulturel/impactCulturel.html" class="boutton_menu">Impact Culturel</a>
+            <a href="vie_entreprise.html" class="boutton_menu site_actuel">Vie de l'entreprise</a>
+        </div>
+    </nav>
+    <div class="trou"></div>
+    <div class="container d-flex flex-wrap">
+        <div class="box small-rect" style="flex: 1;">
+            <img src="entreprise.jpg" alt="Description de l'image" class="img-fluid" style="width: 100%; height: 100%;">
+        </div>
+        <div class="box large-rect">
+            <h2 class="poppins-bold">Présentation des fondateurs</h2>
+            <ul class="poppins-regular">
+            <li><strong>Anthony Roux</strong> est le directeur créatif, à l'origine de l'univers graphique et narratif d'Ankama, notamment pour les jeux comme Dofus et Wakfu.</li>
+            <li><strong>Camille Chafer</strong> occupe un rôle essentiel dans la gestion technique, en tant que directeur technique (CTO), supervisant les aspects informatiques et le développement des plateformes.</li>
+            <li><strong>Emmanuel Darras</strong>, quant à lui, s'est concentré sur la gestion et l'aspect financier de l'entreprise, aidant Ankama à se structurer et à croître.</li>
+            </ul>
+        </div>
+        <br>
+    </div>
+    <br>
+    <div class="container d-flex flex-wrap">
+        <div class="box large-rect">
+            <h2 class="poppins-bold">Les salariés</h2>
+            <ul class="poppins-regular">
+            <li>Nombre de salariés : environ 500</li>
+            <li>Développement informatique (création de jeux, infrastructure serveur, etc.)</li>
+            <li>Design graphique (animation 2D/3D, création de personnages, décors)</li>
+            <li>Écriture scénaristique (univers, quêtes, dialogues)</li>
+            <li>Production audiovisuelle (séries animées, films)</li>
+            <li>Marketing et communication (campagnes, événements)</li>
+            </ul>
+        </div>
+        <div class="box small-rect ms-3" style="flex: 1;">
+            <img src="interieur.jpg" alt="Description de l'image" class="img-fluid" style="width: 100%; height: 100%;">
+        </div>
+    </div>
+    <br>
+    <div class="container d-flex flex-wrap">
+        <div class="box small-rect me-3" style="flex: 1;">
+            <img src="entreprise3.jpg" alt="Description de l'image" class="img-fluid" style="width: 100%; height: 100%;">
+        </div>
+        <div class="box large-rect"></div>
+    </div>
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Ankama Tous droits réservés. Benjamin Jond.</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
