@@ -15,9 +15,9 @@ body {
 }
 
 .box {
-    border: 2px solid black;
+    border: 2px solid #f5e9ae;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Transparence pour voir le fond */
+    background-color: #da9b55; /* Transparence pour voir le fond */
 }
 
 .small-rect {
