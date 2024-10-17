@@ -63,7 +63,7 @@ body{
     width : 55%;
     gap: 10px;
     justify-content: center;
-    background-color: azure;
+    background-color: #f5e9ae;
     border-radius: 3%;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ body{
 
 .image{
     width:30%;
-    background-color: azure;
+    background-color: #f5e9ae;
     border-radius: 3%;
     display: flex;
     align-items: center;
@@ -100,8 +100,6 @@ footer p {
 }
 
 .Telecharger{
-  border: medium solid green;
-  border-radius: 10px;
   height: 100px;
   width: 250px;
   margin-left: 25px;
@@ -110,10 +108,10 @@ footer p {
 
 .download{
     display: block;
-    background-color: azure;
+    background-color: #f5e9ae;
+    color: black;
     border-radius: 5px;
     height: 100%;
-    color: green;
     text-align: center;
     display: flex;
     align-items: center;
@@ -122,8 +120,9 @@ footer p {
 }
 
 .download:hover{
-    background-color: green;
-    color: white;
+    background-color:#da9b55;
+    color: black;
 }
+
 
 
