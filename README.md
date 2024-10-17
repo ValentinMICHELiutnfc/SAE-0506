@@ -15,3 +15,29 @@ Etudiant 5 : [Mathis Labbe](mailto:mathis.labbe@edu.univ-fcomte.fr?subject=SAE_1
 # Présentation du projet
 
 Le site se compose de 5 pages, incluant la page d'accueil, nous traitons dans une page de la vie de l'entreprise, de ses locaux. Une page traite de l'économie et une des activités et de l'histoire de l'entreprise. Enfin la dernière page traite de l'impact culturel de l'entreprise.
+
+# Validation W3C
+
+Accueil :
+
+Rapport économique :
+
+Activités/historique :
+<br>
+<img width="300" alt="image" src="W3C_Valentin.png">
+
+
+Impact culturel :
+<br>
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/35cab4c6-2ffe-4786-89ae-dc13d6caa477">
+
+Vie de l'entreprise :
+
+# Validation CO2
+<br>
+<img width="300" alt="image" src="ECO_Valentin.png">
+
+
+
+
+
