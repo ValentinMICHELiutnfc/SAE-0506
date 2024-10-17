@@ -21,6 +21,8 @@ Le site se compose de 5 pages, incluant la page d'accueil, nous traitons dans un
 Accueil :
 
 Rapport économique :
+<br>
+<img width="300" alt="image" src="W3C_Thomas.png">
 
 Activités/historique :
 <br>
@@ -34,6 +36,13 @@ Impact culturel :
 Vie de l'entreprise :
 
 # Validation CO2
+Accueil :
+
+Rapport économique :
+<br>
+<img width="300" alt="image" src="ECO_Thomas.png">
+
+Activités/historique :
 <br>
 <img width="300" alt="image" src="ECO_Valentin.png">
 
