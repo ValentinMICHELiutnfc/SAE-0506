@@ -50,7 +50,7 @@ Activités/historique :
 
 Vie de l'entreprise :
 <br>
-<img width="300" alt="image" src="ECO_Benjamin.png">
+<img width="300" alt="image" src="Eco_Benjamin.png">
 
 
 
