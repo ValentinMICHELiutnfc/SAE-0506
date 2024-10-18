@@ -19,6 +19,8 @@ Le site se compose de 5 pages, incluant la page d'accueil, nous traitons dans un
 # Validation W3C
 
 Accueil :
+<br>
+<img width="300" alt="image" src="W3C_Liam.png">
 
 Rapport économique :
 <br>
@@ -37,6 +39,8 @@ Vie de l'entreprise :
 
 # Validation CO2
 Accueil :
+<br>
+<img width="300" alt="image" src="ECO_Liam.png">
 
 Rapport économique :
 <br>
