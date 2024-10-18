@@ -20,24 +20,32 @@ Le site se compose de 5 pages, incluant la page d'accueil, nous traitons dans un
 
 Accueil :
 <br>
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2Findex.html)
+<br>
 <img width="300" alt="image" src="W3C_Liam.png">
 
 Rapport économique :
 <br>
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2FRapport_Economique.html)
+<br>
 <img width="300" alt="image" src="W3C_Thomas.png">
 
 Activités/historique :
+<br>
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2FActivites.html)
 <br>
 <img width="300" alt="image" src="W3C_Valentin.png">
 
 
 Impact culturel :
 <br>
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2FInformative_Pages%2FimpactCulturel%2FimpactCulturel.html)
+<br>
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/35cab4c6-2ffe-4786-89ae-dc13d6caa477">
 
 Vie de l'entreprise :
 <br>
-Lien : https://validator.w3.org/nu/?doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2Fvie_entreprise.html
+Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2Fvie_entreprise.html](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2Fvie_entreprise.html))
 <br>
 <img width="300" alt="image" src="W3C_Benjamin.png">
 
