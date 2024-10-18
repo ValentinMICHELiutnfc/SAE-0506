@@ -54,6 +54,7 @@ Activités/historique :
 
 Vie de l'entreprise :
 <br>
+Lien : https://validator.w3.org/nu/?doc=https%3A%2F%2Fvalentinmicheliutnfc.github.io%2FSAE-0506%2Fvie_entreprise.html
 <img width="300" alt="image" src="Eco_Benjamin.png">
 
 
